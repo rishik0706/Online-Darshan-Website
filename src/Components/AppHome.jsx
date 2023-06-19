@@ -1,6 +1,7 @@
 import Cards from "./Cards";
 import Carousels from "./Carousels";
 import Footer from "./Footer";
+import { Gallery } from "./Gallery";
 
 
 function AppHome() {
@@ -8,6 +9,7 @@ function AppHome() {
     <>
     <Carousels/>
     <Cards/>
+    <Gallery/>
     <Footer/>
     </>
   );
